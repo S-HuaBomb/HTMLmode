@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>综合实例</title>
+</head>
+<body bgcolor="#E3E3E3">
+    <h2 align="center">综合展现HTML标记</h2>
+    <hr align="center" size="2" width="300">
+    <center>
+        <font size="4">下面展示表单的应用</font>
+        <form action="" method="POST">
+            <table border="1" width="400" cellpadding="1" cellspacing="1">
+                <tr>
+                    <td>姓名: </td>
+                    <td><input type="text" name="username" maxlength="10" size="21"></td>
+                </tr>
+                <tr>
+                    <td>密码: </td>
+                    <td><input type="password" name="pwd" size="21"></td>
+                </tr>
+                <tr>
+                    <td>性别: </td>
+                    <td>
+                        <input type="radio" name="sex" checked>男
+                        <input type="radio" name="sex">女
+                    </td>
+                </tr>
+                <tr>
+                    <td>水果: </td>
+                    <td>
+                        <input type="checkbox" name="fruit" checked>苹果
+                        <input type="checkbox" name="fruit">西瓜
+                        <input type="checkbox" name="fruit">释迦果
+                    </td>
+                </tr>
+                <tr>
+                    <td>备注: </td>
+                    <td>
+                        <textarea name="remark" id="" cols="30" rows="10">在滚动文本框中输入备注</textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>专业: </td>
+                    <td>
+                        <select name="major" id="" size="1">
+                            <option value="计算机">计算机</option>
+                            <option value="英语">英语</option>
+                            <option value="数学">数学</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>课程: </td>
+                    <td>
+                        <select name="course" id="" size="3" multiple>
+                            <option value="Java EE 实用教程">Java EE 实用教程</option>
+                            <option value="编译原理">编译原理</option>
+                            <option value="操作系统">操作系统</option>
+                            <option value="初等数论">初等数论</option>
+                            <option value="离散数学">离散数学</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                    <input type="submit" value="提交" align="center">
+                    <input type="reset" value="重置" align="center">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>
